@@ -43,22 +43,22 @@ app.post('/usuarios/login', (req, res) => {
     idTurno: 1,
     medico: medicoMartin,
     paciente: pacientePablo,
-    fecha: 20231107,
-    hora: 120000
+    fecha: "7 de Noviembre de 2023",
+    hora: "12hs"
   },
   {
     idTurno: 2,
     medico: medicoMartin,
     paciente: pacientePablo,
-    fecha: 20231207,
-    hora: 130000
+    fecha: "12 de Septiembre de 2023",
+    hora: "13hs"
   },
   {
     idTurno: 3,
     medico: medicoMartin,
     paciente: pacientePablo,
-    fecha: 20231108,
-    hora: 140000
+    fecha: "8 de Noviembre de 2023",
+    hora: "14hs"
   }]
 
   let mail = req.body.mail
